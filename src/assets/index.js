@@ -39,6 +39,7 @@ import reactnativeawesomecomponents from "./works/reactnativeawesomecomponents.p
 import federaml from "./works/federaml.png";
 import crdt from "./works/crdt.png";
 import ignus from "./works/ignus.png";
+import cfd2017 from "./works/cfd2017.png";
 
 export {
   logo,
@@ -77,5 +78,6 @@ export {
   link,
   federaml,
   crdt,
-  ignus
+  ignus,
+  cfd2017
 };

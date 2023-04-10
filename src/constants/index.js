@@ -24,6 +24,7 @@ import {
   federaml,
   crdt,
   ignus,
+  cfd2017,
 } from "../assets";
 
 export const navLinks = [
@@ -332,6 +333,30 @@ const projects = [
       },
     ],
     image: ignus,
+  },
+  {
+    name: "CodeFunDo - Microsoft",
+    description:
+      "In 2017, I and my team participated in the highly competitive Microsoft CodeFunDo Hackathon and emerged as one of the top 3 finalist teams out of 53 teams! Our innovative project involved developing a bot and an IoT project using Raspberry Pi, Azure Bot Builder, and RFID technology. We created a bot for the folks of IIT Jodhpur to provide them with basic day-to-day info like Mess menu, timetable, and even a payment system. Our payment module was RFID-based and made on Raspberry Pi, enabling both students and merchants to check balances and make payments directly within the bot itself.",
+    tags: [
+      {
+        name: "rfid",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "raspberry-pi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "iot",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "hackathon",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: cfd2017,
   },
 ];
 
