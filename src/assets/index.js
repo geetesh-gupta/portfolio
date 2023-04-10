@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link from "./link.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,6 +32,13 @@ import tcs from "./company/tcs.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import jsonbrowser from "./works/jsonbrowser.png";
+import mongodbbrowser from "./works/mongodbbrowser.png";
+import reactnativeawesomecomponents from "./works/reactnativeawesomecomponents.png";
+import federaml from "./works/federaml.png";
+import crdt from "./works/crdt.png";
+import ignus from "./works/ignus.png";
 
 export {
   logo,
@@ -63,4 +71,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  jsonbrowser,
+  mongodbbrowser,
+  reactnativeawesomecomponents,
+  link,
+  federaml,
+  crdt,
+  ignus
 };

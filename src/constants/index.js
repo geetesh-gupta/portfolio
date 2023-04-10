@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -18,10 +17,13 @@ import {
   mit,
   yodlee,
   tcs,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  mongodbbrowser,
+  jsonbrowser,
+  reactnativeawesomecomponents,
+  federaml,
+  crdt,
+  ignus,
 } from "../assets";
 
 export const navLinks = [
@@ -198,7 +200,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
+    image: mongodbbrowser,
     source_code_link: "https://github.com/geetesh-gupta/Mongo-DB-Browser",
     downloads_source:
       "https://img.shields.io/jetbrains/plugin/d/20002-mongo-db-browser.svg?logo=docusign",
@@ -228,7 +230,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: tripguide,
+    image: jsonbrowser,
     source_code_link: "https://github.com/geetesh-gupta/JSON-Browser",
     downloads_source:
       "https://img.shields.io/jetbrains/plugin/d/20013-json-browser.svg?logo=docusign",
@@ -253,7 +255,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: reactnativeawesomecomponents,
     source_code_link:
       "https://github.com/geetesh-gupta/react-native-awesome-components",
     downloads_source:
@@ -279,10 +281,57 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: crdt,
     source_code_link: "https://github.com/anshulahuja98/python3-crdt",
     downloads_source:
       "https://img.shields.io/github/stars/anshulahuja98/python3-crdt?logo=github",
+    downloads_link: "https://doi.org/10.1109/SRDS47363.2019.00047",
+  },
+  {
+    name: "FederaML",
+    description:
+      "Developed a cutting-edge distributed ML framework based on TensorFlow federated, revolutionizing the capabilities of low power Edge devices. My work was presented at the prestigious AAAI Conference on Artificial Intelligence and published in AAAI, showcasing my expertise and passion for innovation. To further demonstrate the power of my framework, I also created a sleek React Native app to showcase the proof of concept.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "federated",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ml",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: federaml,
+    source_code_link: "https://github.com/geetesh-gupta/FederaML",
+    other_link: "https://ojs.aaai.org/index.php/AAAI/article/view/17870",
+  },
+  {
+    name: "Ignus - College Fest",
+    description:
+      "As the web development head among the core team of the festival organizers, I with a team of 3 developers created a stunning website for our IIT college's annual cultural festival, Ignus. Using only bare essentials like HTML, CSS, and Javascript, we developed an eye-catching website that captured the essence of the event and provided an unparalleled user experience. Through our collective efforts, we were able to deliver a website that was used by over 2000+ event participants, showcasing our ability to deliver top-quality results and exceed expectations.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ignus,
   },
 ];
 
